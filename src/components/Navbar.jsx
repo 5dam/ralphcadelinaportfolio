@@ -1,6 +1,7 @@
-import { Button, Center, Container, Flex, Heading, HStack, IconButton, Spacer, useColorMode, VStack } from '@chakra-ui/react'
-import React from 'react'
-import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin, FaGit } from 'react-icons/fa'
+import { Center, Container, Flex, Text, IconButton, Spacer, useColorMode, VStack } from '@chakra-ui/react'
+import { FaSun, FaMoon, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+
 
 export default function Navbar() {
 
@@ -13,22 +14,28 @@ export default function Navbar() {
         <Flex w="100%" gap="3">
           <Spacer />
           <IconButton icon={<FaLinkedin />} isRound="true" onClick={""} />
-          <IconButton icon={<FaInstagram />} isRound="true" onClick={""} />
+          <IconButton icon={<FaFacebook />} isRound="true" onClick={""} />
           <IconButton icon={<FaGithub />} isRound="true" onClick={""} />
           <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode} />
         </Flex>
-      
       </VStack>
       <Container>
         <Center>
-          <Flex gap="12">
-            <Heading as="h2" size="h2">About</Heading>
-            <Heading as="h2" size="h2">Projects</Heading>
-            <Heading as="h2" size="h2">Work Experience</Heading>
-            <Heading as="h2" size="h2">Contact</Heading>
+          <Flex gap="10">
+            <Text>
+              <Link to="/">Home</Link>
+            </Text>
+            <Text>
+              <Link to="/about">About</Link>
+            </Text>
+            <Text>
+              <Link to="/works">Works</Link>
+            </Text>
+            <Text>
+              <Link to="/projects">Projects</Link>
+            </Text>
           </Flex>
         </Center>
-        
       </Container>
     </>
   )
