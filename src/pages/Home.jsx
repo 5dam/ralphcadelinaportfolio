@@ -5,7 +5,7 @@ export default function Home() {
     <>
         <Container mt={12}>            
                 <Stack>
-                    <Text  fontSize={40} align="center" fontWeight="semibold" color="teal.600">Ralph Jason Cadeliña</Text>
+                    <Text  fontSize={40} align="center" fontWeight="semibold" color="teal.400">Ralph Jason Cadeliña</Text>
                     <Text  fontSize={24} align="center" fontWeight="semibold">Web Developer</Text>
                     
                     <Text pt={5} fontStyle="italic">“It is not the language that makes programs appear simple. It is the programmer that make the language appear simple!”</Text>
