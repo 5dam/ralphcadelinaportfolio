@@ -1,6 +1,6 @@
-import { Center, Container, Flex, Text, IconButton, Spacer, useColorMode, VStack, border } from '@chakra-ui/react'
+import { Center, Container, Flex, Text, IconButton, Spacer, useColorMode, VStack } from '@chakra-ui/react'
 import { FaSun, FaMoon, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 export default function Navbar() {
@@ -30,13 +30,12 @@ export default function Navbar() {
           <Flex gap="10">
             <Text>
               <NavLink to="/" style={({ isActive }) => isActive ? activeStyle : undefined}>Home</NavLink>
-              {/* <Link to="/">Home</Link> */}
             </Text>
             <Text>
             <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined}>About</NavLink>
             </Text>
             <Text>
-            <NavLink to="/works" style={({ isActive }) => isActive ? activeStyle : undefined}>Work Exp</NavLink>
+            <NavLink to="/works" style={({ isActive }) => isActive ? activeStyle : undefined}>Works</NavLink>
             </Text>
             <Text>
             <NavLink to="/projects" style={({ isActive }) => isActive ? activeStyle : undefined}>Projects</NavLink>
