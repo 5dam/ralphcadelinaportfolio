@@ -13,7 +13,7 @@ export default function Home() {
                 </Stack>            
         </Container>
         <Container align="center" mt={5}>
-            <Button bg="teal.600">Hire me!</Button>
+            <Button bg="teal.600" color="white">Hire me!</Button>
         </Container>
         <Container>
             <Box align="center" mt={10}>

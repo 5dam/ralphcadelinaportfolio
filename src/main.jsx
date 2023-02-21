@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <ChakraProvider theme={theme}>
-        <ColorModeScript initialColorMode="light" />
+        <ColorModeScript initialColorMode="dark" />
         <App />
       </ChakraProvider>
     </BrowserRouter>
