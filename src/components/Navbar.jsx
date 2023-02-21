@@ -21,9 +21,9 @@ export default function Navbar() {
         <Flex w="100%" gap="3">
         <Button>Resume</Button>
           <Spacer />
-          <IconButton colorScheme='linkedin' icon={<FaLinkedin />} isRound="true" onClick={""} />
-          <IconButton colorScheme='messenger' icon={<FaFacebook />} isRound="true" onClick={""} />
-          <IconButton colorScheme='green' icon={<FaGithub />} isRound="true" onClick={""} />
+          <a href="https://www.linkedin.com/in/ralphcadelina/" target="_blank"><IconButton colorScheme='linkedin' icon={<FaLinkedin />} isRound="true" /></a>
+          <a href="https://www.facebook.com/1234567890stragedy" target="_blank"><IconButton colorScheme='messenger' icon={<FaFacebook />} isRound="true" /></a>
+          <a href="https://github.com/5dam" target="_blank"><IconButton colorScheme='green' icon={<FaGithub />} isRound="true" /></a>
           <IconButton ml={8} icon={isDark ? <FaSun color="yellow" /> : <FaMoon />} isRound="true" onClick={toggleColorMode} />
         </Flex>
       </VStack>
