@@ -19,12 +19,12 @@ export default function Navbar() {
       
       <VStack p={5}>
         <Flex w="100%" gap="3">
-      <Button>Resume</Button>
+        <Button>Resume</Button>
           <Spacer />
-          <IconButton icon={<FaLinkedin />} isRound="true" onClick={""} />
-          <IconButton icon={<FaFacebook />} isRound="true" onClick={""} />
-          <IconButton icon={<FaGithub />} isRound="true" onClick={""} />
-          <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode} />
+          <IconButton colorScheme='linkedin' icon={<FaLinkedin />} isRound="true" onClick={""} />
+          <IconButton colorScheme='messenger' icon={<FaFacebook />} isRound="true" onClick={""} />
+          <IconButton colorScheme='green' icon={<FaGithub />} isRound="true" onClick={""} />
+          <IconButton ml={8} icon={isDark ? <FaSun color="yellow" /> : <FaMoon />} isRound="true" onClick={toggleColorMode} />
         </Flex>
       </VStack>
       <Container>
