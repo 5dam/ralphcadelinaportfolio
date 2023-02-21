@@ -19,7 +19,7 @@ export default function Navbar() {
       
       <VStack p={5}>
         <Flex w="100%" gap="3">
-      <Button bg="green.400">Resume</Button>
+      <Button>Resume</Button>
           <Spacer />
           <IconButton icon={<FaLinkedin />} isRound="true" onClick={""} />
           <IconButton icon={<FaFacebook />} isRound="true" onClick={""} />

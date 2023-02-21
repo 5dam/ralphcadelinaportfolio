@@ -1,4 +1,4 @@
-import { Box, Center, Container, Stack, Text } from "@chakra-ui/react";
+import { Box, Container, Stack, Text, Image, Button } from "@chakra-ui/react";
 
 export default function Home() {
   return (
@@ -12,7 +12,22 @@ export default function Home() {
                     <blockquote align="right"> — Robert C. Martin</blockquote>
                 </Stack>            
         </Container>
-   
+        <Container align="center" mt={5}>
+            <Button bg="green.400">Hire me!</Button>
+        </Container>
+        <Container>
+            <Box align="center" mt={10}>
+                <Image
+                h={300}
+                w={400}
+                border='1px solid'
+                borderRadius='full'
+                
+                src='./public/profpic.png'
+                alt='Dan Abramov'
+                />
+            </Box>
+        </Container>
    
     </>
   )
