@@ -1,4 +1,4 @@
-import { Center, Container, Flex, Text, IconButton, Spacer, useColorMode, VStack } from '@chakra-ui/react'
+import { Center, Container, Flex, Text, IconButton, Spacer, useColorMode, VStack, Button } from '@chakra-ui/react'
 import { FaSun, FaMoon, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 
@@ -16,8 +16,10 @@ export default function Navbar() {
 
   return (
     <>
+      
       <VStack p={5}>
         <Flex w="100%" gap="3">
+      <Button bg="green.400">Resume</Button>
           <Spacer />
           <IconButton icon={<FaLinkedin />} isRound="true" onClick={""} />
           <IconButton icon={<FaFacebook />} isRound="true" onClick={""} />

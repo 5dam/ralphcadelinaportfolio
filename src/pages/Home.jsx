@@ -1,26 +1,18 @@
-import { Box, Button, Center, Container, Heading, SimpleGrid, Stack, Text } from "@chakra-ui/react";
-
+import { Box, Center, Container, Stack, Text } from "@chakra-ui/react";
 
 export default function Home() {
   return (
     <>
-    
-        <SimpleGrid columns={2} spacing={5} mt={10} minChildWidth="430px">
-            <Box bg='blue.500' height={{ base: '35vh', md: '55vh', lg: '70vh'}}>
-                <Center h="30vh">
-                    <Stack>
-                        <Heading>Ralph Cadeliña</Heading>
-                        <Text>Web Developer</Text>                    
-                        <Button bg="blue.300">Hire me!</Button>
-                    </Stack>                
-                </Center>
-            </Box>
-            <Box bg='blue.500' height={{ base: '35vh', md: '55vh', lg: '70vh'}}>
-                <Center h="30vh">
-                    <Heading>Image</Heading>
-                </Center>           
-            </Box>
-        </SimpleGrid>    
+        <Container mt={12}>            
+                <Stack>
+                    <Text  fontSize={32} align="center" fontWeight="semibold">Ralph Jason Cadeliña</Text>
+                    <Text  fontSize={20} align="center" fontWeight="semibold">Web Developer</Text>
+                    
+                    <Text pt={5} fontStyle="italic">“It is not the language that makes programs appear simple. It is the programmer that make the language appear simple!”</Text>
+                    <blockquote align="right"> — Robert C. Martin</blockquote>
+                </Stack>            
+        </Container>
+   
    
     </>
   )
