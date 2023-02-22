@@ -1,19 +1,21 @@
-import { Box, Container, Stack, Text, Image, Button } from "@chakra-ui/react";
+import { Box, Container, Stack, Text, Image, Button, HStack, Center } from "@chakra-ui/react";
 
 export default function Home() {
   return (
     <>
-        <Container mt={12}>            
-                <Stack>
-                    <Text  fontSize={40} align="center" fontWeight="semibold" color="teal.400">Ralph Jason Cadeliña</Text>
-                    <Text  fontSize={24} align="center" fontWeight="semibold">Web Developer</Text>
-                    
-                    <Text pt={5} fontStyle="italic">“It is not the language that makes programs appear simple. It is the programmer that make the language appear simple!”</Text>
-                    <blockquote align="right"> — Robert C. Martin</blockquote>
-                </Stack>            
+    {/* <Text fontSize={40} fontWeight="semibold" color="teal.400"></Text> */}
+        <Container mt={12}>
+            <Center>
+                <Text fontWeight="semibold" fontSize={40}><Text as="span" color="teal.400" fontSize={40} fontWeight="bold">Hello!</Text> I'm Ralph Cadeliña</Text>      
+            </Center>
+                
+            <Text align="center" pt="5" pb="5">
+                A Frontend focused <Text as="span" color="teal.400" fontWeight="bold">Web Developer</Text> building the Frontend of Websites and Web Applications that leads to the success of the overall product.
+            </Text>
+                          
         </Container>
         <Container align="center" mt={5}>
-            <Button bg="teal.600" color="white">Hire me!</Button>
+            <Button bg="teal.400">Hire me!</Button>
         </Container>
         <Container>
             <Box align="center" mt={10}>
