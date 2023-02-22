@@ -18,12 +18,10 @@ export default function Home() {
         <Container>
             <Box align="center" mt={10}>
                 <Image
-                h={300}
-                w={320}
-                border='3px solid'
-                borderRadius="50%"
-                src='/static/images/profpic.png'
-                alt='5dam'
+                    h={300}
+                    w={400}
+                    src='/static/images/profpic.png'
+                    alt='image here'
                 />
             </Box>
         </Container>
