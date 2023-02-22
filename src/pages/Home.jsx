@@ -20,9 +20,9 @@ export default function Home() {
                 <Image
                 h={300}
                 w={300}
-                border='3px solid'
+                border='3px solid black'
                 borderRadius="50%"
-                src='./public/profpic.png'
+                src='./public/profpc.jpg'
                 alt='5dam'
                 />
             </Box>
