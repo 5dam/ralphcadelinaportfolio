@@ -9,7 +9,7 @@ export default function About() {
         <Heading as="h1" size="4xl" mt="20" fontWeight="bold">About</Heading>
       </Container>
       
-      <Box bg="gray.200" h="100vh" mt={-2}>
+      <Box bg="gray.200" h="100vh" mt={-2.5}>
 
       </Box>
   </>
