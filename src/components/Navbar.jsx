@@ -39,7 +39,7 @@ export default function Navbar() {
             <NavLink to="/about" style={({ isActive }) => isActive ? activeStyle : undefined}>About</NavLink>
             </Text>
             <Text>
-            <NavLink to="/works" style={({ isActive }) => isActive ? activeStyle : undefined}>Works</NavLink>
+            <NavLink to="/experience" style={({ isActive }) => isActive ? activeStyle : undefined}>Experience</NavLink>
             </Text>
             <Text>
             <NavLink to="/projects" style={({ isActive }) => isActive ? activeStyle : undefined}>Projects</NavLink>

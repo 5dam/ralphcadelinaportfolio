@@ -24,7 +24,7 @@ export default function Projects() {
   return (
     <>
       <Container maxW="container.xl">
-        <Heading as="h1" size="4xl" mt="20" fontWeight="bold">Projects</Heading>
+        <Heading as="h1" fontSize={{base:"35px", md:"50px", lg:"65px"}} mt="20" fontWeight="bold">Projects</Heading>
       </Container>
       
       <Box bg="gray.200" h="100%" mt={-3}>
