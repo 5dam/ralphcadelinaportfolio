@@ -14,7 +14,8 @@ import {
     CardFooter, 
     ListItem,
     List,  
-    IconButton
+    IconButton,
+    Center
   } 
   from '@chakra-ui/react'
 import { FaBootstrap, FaCss3,  FaHtml5, FaLaravel, FaPhp, FaReact } from 'react-icons/fa'
