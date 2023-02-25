@@ -77,7 +77,7 @@ export default function Projects() {
               </CardFooter>
               <CardFooter mt={-7}>
                 <Text>Live link :</Text>
-                <Text ml={12} as="u"><a href="#" target="_blank">Currently Working...</a></Text>
+                <Text ml={12} as="u"><a href="https://kokusai-demo-5v7e.vercel.app/index.html" target="_blank">https://kokusai-demo-5v7e.vercel.app/index.html</a></Text>
               </CardFooter>
               </Card>
           </Box>
