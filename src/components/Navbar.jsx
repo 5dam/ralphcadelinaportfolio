@@ -21,7 +21,7 @@ export default function Navbar() {
       
       <VStack p={5}>
         <Flex w="100%" gap="3">
-        <a href="../public/documents/RalphCadeliña-CV.pdf" download="Ralph Cadeliña's Resume" target="_blank"><Button>Resume</Button></a>
+        <a href="../public/documents/RalphCadeliña-CV.pdf" download="Ralph Cadeliña's Resume" target="_blank"><Button display="none">resume</Button></a>
           <Spacer />
           <a href="https://www.linkedin.com/in/ralphcadelina/" target="_blank"><IconButton colorScheme='linkedin' icon={<FaLinkedin />} isRound="true" /></a>
           <a href="https://www.facebook.com/1234567890stragedy" target="_blank"><IconButton colorScheme='messenger' icon={<FaFacebook />} isRound="true" /></a>

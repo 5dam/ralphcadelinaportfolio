@@ -41,10 +41,8 @@ export default function Projects() {
                     />
                   </a>
                   <Stack mt='6' spacing='3'>
-                  <Heading size='md'>Mindanao Kokusai Daigaku</Heading>
-                  <Text>
-                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos temporibus vero ratione vitae maxime officiis repellendus natus vel ducimus eveniet.
-                  </Text>
+                  <Heading size='md'>Mindanao Kokusai Daigaku <Text as="span">(Capstone Project)</Text></Heading>
+                  <Text>A final project required for the web development bootcamp. The project has a dashboard panel for the admin, teachers and students for view and grade inputs.</Text>
                   <Text fontSize='2xl'>
                     <Text color="blue.400">Technology used : </Text>
                     <List>
@@ -95,10 +93,8 @@ export default function Projects() {
                   />
                 </a>
                 <Stack mt='6' spacing='3'>
-                <Heading size='md'>KodeGo Monitoring System</Heading>
-                  <Text>
-                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos temporibus vero ratione vitae maxime officiis repellendus natus vel ducimus eveniet.
-                  </Text>
+                <Heading size='md'>KodeGo Monitoring System <Text as="span">(Major Project 2)</Text></Heading>
+                  <Text>An API Web Driven application. A monitoring system for the students of KodeGo.</Text>
                   <Text fontSize='2xl'>
                     <Text color="blue.400">Technology used : </Text>
                     <List>
@@ -149,10 +145,8 @@ export default function Projects() {
                   />
                 </a>
                 <Stack mt='6' spacing='3'>
-                  <Heading size='md'>Move Me</Heading>
-                  <Text>
-                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos temporibus vero ratione vitae maxime officiis repellendus natus vel ducimus eveniet.
-                  </Text>
+                  <Heading size='md'>Move Me <Text as="span">(Major Project 1)</Text></Heading>
+                  <Text>A static only webpages required. No functionalities are available on this project.</Text>
                   <Text fontSize='2xl'>
                     <Text color="blue.400">Technology used : </Text>
                     <List>
