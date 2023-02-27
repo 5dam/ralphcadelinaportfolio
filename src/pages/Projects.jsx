@@ -1,6 +1,4 @@
 import { 
-    Button, 
-    ButtonGroup, 
     Box, 
     Container, 
     Heading, 
@@ -8,17 +6,9 @@ import {
     Card, 
     CardBody, 
     Image, 
-    Stack, 
-    Text, 
-    Divider, 
-    CardFooter, 
-    ListItem,
-    List,  
-    IconButton,
-    Center
   } 
   from '@chakra-ui/react'
-import { FaBootstrap, FaCss3,  FaHtml5, FaLaravel, FaPhp, FaReact } from 'react-icons/fa'
+  
 import '/styles.css'
 
 export default function Projects() {
@@ -31,34 +21,45 @@ export default function Projects() {
         <Container maxW="container.lg">
           <SimpleGrid columns={2} color="black" minChildWidth="350px" spacing={10} pt={20} pb={20}>
             <a href="https://kokusai-demo-5v7e.vercel.app/index.html" target="_blank">
-              <Box align="center" boxShadow="dark-lg" p="5">
+              <Card boxShadow="dark-lg" borderRadius="0">
                 <div class="imgHover">
-                  <Image src="/static/images/mkdph-front.png" h="230px" w="360px"></Image>
+                  <CardBody>
+                    <Image
+                      p={5}
+                      src="/static/images/mkdph-front.png"
+                    ></Image>
+                  </CardBody>
                 </div>
-              </Box>
+              </Card>
             </a>
             <a href="https://kodego-attendance.vercel.app/" target="_blank">
-              <Box boxShadow="dark-lg" align="center" p="5">
+              <Card boxShadow="dark-lg" borderRadius="0">
                 <div class="imgHover">
-                  <Image src="/static/images/kodegomonitoringsystem-mp2.png" h="230px" w="360px"></Image>
+                  <CardBody>
+                    <Image
+                      p={5}
+                      src="/static/images/kodegomonitoringsystem-mp2.png"
+                    ></Image>
+                  </CardBody>
                 </div>
-              </Box>
+              </Card>
             </a>
             <a href="https://majorproject1-moveme.vercel.app/" target="_blank">
-            <Box boxShadow="dark-lg" align="center" p="5">
-              <div class="imgHover">
-                <Image src="/static/images/moveme-mp1.png" h="230px" w="360px"></Image>
-              </div>
-            </Box>
+              <Card boxShadow="dark-lg" borderRadius="0">
+                <div class="imgHover">
+                  <CardBody>
+                    <Image
+                      p={5}
+                      src="/static/images/moveme-mp1.png"
+                    >
+                    </Image>
+                  </CardBody>
+                </div>
+              </Card>
             </a>
           </SimpleGrid>
-
         </Container>
-       
       </Box>
-
-
-
      </>
   )
 }
