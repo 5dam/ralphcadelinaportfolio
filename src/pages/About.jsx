@@ -13,7 +13,11 @@ import {
   Avatar,
   CardHeader,
   StatHelpText,
-  Stat
+  Stat,
+  Image,
+  VStack,
+  HStack,
+  SimpleGrid
  } from '@chakra-ui/react'
 
 
@@ -77,7 +81,63 @@ export default function About() {
 
               {/* Panel 2 */}
               <TabPanel>
-                <Heading>Technology Stack</Heading>
+                <Heading mb={8} mt={10}>Technology Stack</Heading>
+                <Container>
+                  <SimpleGrid columns={4} spacing={5} minChildWidth="90px" align="center">
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/html.png"></Image>
+                        <Text fontWeight="semibold">HTML</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/css.png"></Image>
+                        <Text fontWeight="semibold">CSS</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/bootstrap.png"></Image>
+                        <Text fontWeight="semibold">Bootstrap</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/javascript.png"></Image>
+                        <Text fontWeight="semibold">Javascript</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/reactjs.svg"></Image>
+                        <Text fontWeight="semibold">ReactJS</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/mui.svg"></Image>
+                        <Text fontWeight="semibold">Material UI</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="150px" h="100px" src="/static/skills-stack/chakraui.png"></Image>
+                        <Text fontWeight="semibold">Chakra UI</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/nodejs.png"></Image>
+                        <Text fontWeight="semibold">NodeJS</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/php.png"></Image>
+                        <Text fontWeight="semibold">PHP</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/laravel.svg"></Image>
+                        <Text fontWeight="semibold">Laravel</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/mysql.png"></Image>
+                        <Text fontWeight="semibold">MySQL</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/firebase.png"></Image>
+                        <Text fontWeight="semibold">Firebase</Text>
+                      </Box>
+                      <Box>
+                        <Image borderRadius="10px" w="100px" h="100px" src="/static/skills-stack/github.png"></Image>
+                        <Text fontWeight="semibold">Github</Text>
+                      </Box>
+                  </SimpleGrid>                     
+                </Container>
               </TabPanel>
 
               {/* Panel 3 */}
