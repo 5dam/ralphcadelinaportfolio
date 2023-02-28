@@ -17,7 +17,8 @@ import {
   Image,
   VStack,
   HStack,
-  SimpleGrid
+  SimpleGrid,
+  Divider
  } from '@chakra-ui/react'
 
 
@@ -142,7 +143,19 @@ export default function About() {
 
               {/* Panel 3 */}
               <TabPanel>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, sed.</p>
+                <Container>
+                  <Heading mt={10}>Get in touch, let's talk.</Heading>
+                  <Text mt={10} mb={5}>Feel free to send me an <Text as="u">email</Text> or schedule a free consultation with me.</Text>
+                  <Divider />
+                  <Box mb="220">
+                    <Flex>
+                      <Image src="/static/images/gmail.png" h="80px" w="80px"></Image>
+                      <Text fontWeight="semibold" mt={6}>ralphcadelina5@gmail.com</Text>
+                    </Flex>
+                  
+                    
+                  </Box>
+                </Container>
               </TabPanel>
 
             </TabPanels>
