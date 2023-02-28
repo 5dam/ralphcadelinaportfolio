@@ -144,7 +144,7 @@ export default function Experience() {
                     <Heading size='sm' fontSize="sm">Surigao Education Center</Heading>
 
                     <Text as="em" py='2' fontSize="sm">
-                      Site Admin
+                      Site Administrator
                     </Text>
                     <Divider />
                     <UnorderedList fontSize="xs" mt={3}>
