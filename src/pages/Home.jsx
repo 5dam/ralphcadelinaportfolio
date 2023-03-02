@@ -1,9 +1,16 @@
-import { Box, Container, Stack, Text, Image, Button, HStack, Center } from "@chakra-ui/react";
+import { 
+    Box, 
+    Container, 
+    Text, 
+    Image, 
+    Button, 
+    Center 
+} from "@chakra-ui/react";
 
 export default function Home() {
+
   return (
     <>
-    {/* <Text fontSize={40} fontWeight="semibold" color="teal.400"></Text> */}
         <Container mt={12}>
             <Center>
                 <Text fontWeight="semibold" fontSize={40}><Text as="span" color="teal.400" fontSize={40} fontWeight="bold">Hello!</Text> I'm Ralph Cadeliña</Text>      
@@ -15,7 +22,7 @@ export default function Home() {
                           
         </Container>
         <Container align="center" mt={5}>
-            <Button bg="teal.400">Hire me!</Button>
+           <Button bg="teal.600" onClick={() => window.location = 'mailto:email@email.com'}>Let's Talk!</Button>
         </Container>
         <Container>
             <Box align="center" mt={10}>
