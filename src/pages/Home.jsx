@@ -22,7 +22,7 @@ export default function Home() {
                           
         </Container>
         <Container align="center" mt={5}>
-           <Button bg="teal.600" onClick={() => window.location = 'mailto:email@email.com'}>Let's Talk!</Button>
+           <Button bg="teal.600" onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>Let's Talk!</Button>
         </Container>
         <Container>
             <Box align="center" mt={10}>
