@@ -15,15 +15,12 @@ import {
   StatHelpText,
   Stat,
   Image,
-  VStack,
-  HStack,
   SimpleGrid,
   Divider
  } from '@chakra-ui/react'
 
-
-
 export default function About() {
+
   return (
     <>
       <Container maxW="container.xl">
