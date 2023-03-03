@@ -26,9 +26,9 @@ export default function Navbar() {
   const isDark = colorMode ==='dark'
 
   let activeStyle = {
-    border : "1px solid",
-    padding : "10px",
-    borderRadius : "20px"
+    fontWeight: 'bold',
+    color: 'teal',
+    fontSize: '30px'
   }
 
   return (

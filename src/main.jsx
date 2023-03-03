@@ -11,9 +11,11 @@ import { ChakraProvider, ColorModeScript } from '@chakra-ui/react'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-      <ChakraProvider theme={theme}>
+      <ChakraProvider>
         <ColorModeScript initialColorMode="dark" />
-        <App />
+        <div className='quicksand'>
+          <App />
+        </div>
       </ChakraProvider>
     </BrowserRouter>
   </React.StrictMode>,
