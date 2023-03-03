@@ -12,6 +12,14 @@ export default function Home() {
   return (
     <>
         <Container mt={12}>
+        <Container>
+            <Box align="center" mt={10}>
+                <Image
+                    src='/static/images/testprofilepic.png'
+                    alt='image here'
+                />
+            </Box>
+        </Container>
             <Center>
                 <Text fontWeight="semibold" fontSize={40}><Text as="span" color="teal.400" fontSize={40} fontWeight="bold">Hello!</Text> I'm Ralph Cadeliña</Text>      
             </Center>
@@ -24,16 +32,7 @@ export default function Home() {
         <Container align="center" mt={5}>
            <Button bg="teal.600" onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>Let's Talk!</Button>
         </Container>
-        <Container>
-            <Box align="center" mt={10}>
-                <Image
-                    h={300}
-                    w={400}
-                    src='/static/images/profpic.png'
-                    alt='image here'
-                />
-            </Box>
-        </Container>
+       
    
     </>
   )
