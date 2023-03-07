@@ -4,13 +4,14 @@ import {
     Text, 
     Image, 
     Button, 
-    Center 
+    Center,
 } from "@chakra-ui/react";
 
 export default function Home() {
 
   return (
     <>
+    <Container h="75vh">
         <Container mt={12}>
         <Container>
             <Box align="center" mt={10}>
@@ -32,7 +33,7 @@ export default function Home() {
         <Container align="center" mt={5}>
            <Button bg="teal.600" onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>Let's Talk!</Button>
         </Container>
-       
+    </Container>
    
     </>
   )
