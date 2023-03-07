@@ -28,7 +28,6 @@ export default function Navbar() {
   let activeStyle = {
     fontWeight: 'bold',
     color: 'teal',
-    fontSize: '30px'
   }
 
   return (

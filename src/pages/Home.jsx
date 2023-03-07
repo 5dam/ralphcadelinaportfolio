@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <>
-    <Container h="75vh">
+    <Container h="82vh">
         <Container mt={12}>
         <Container>
             <Box align="center" mt={10}>
