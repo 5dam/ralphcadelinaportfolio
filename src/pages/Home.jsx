@@ -31,7 +31,11 @@ export default function Home() {
                           
         </Container>
         <Container align="center" mt={5}>
-           <Button bg="teal.600" onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>Let's Talk!</Button>
+           
+                <div className="talk">
+                    <Button className="talk" onClick={() => window.location = 'mailto:ralphcadelina5@gmail.com'}>Let's Talk!</Button>
+                </div>
+           
         </Container>
     </Container>
    

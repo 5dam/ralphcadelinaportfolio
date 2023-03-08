@@ -11,3 +11,11 @@
 .imgHover:hover{
     transform: scale(1.1);
 }
+
+.talk{
+    will-change: filter;
+    transition: filter 300ms;
+}
+.talk:hover {
+    filter: drop-shadow(0 0 2em #00897B);
+}
